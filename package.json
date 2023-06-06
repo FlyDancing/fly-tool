@@ -1,8 +1,13 @@
 {
   "name": "fly-tool",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
+  "description": "工具组件",
+  "author": {
+    "name": "FlyDancing"
+  },
   "type": "module",
+  "keywords": ["vue3","scan","zxing"],
   "scripts": {
     "dev": "vite --host",
     "build": "vue-tsc && vite build",

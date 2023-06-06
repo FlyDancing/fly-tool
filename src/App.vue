@@ -11,15 +11,15 @@
   import { ref } from 'vue'
   import { WechatScan } from '../packages'
 
-  const scan = ref(null)
+  const scan = ref<InstanceType<typeof WechatScan> | null>(null)
 
   const onOpen = () => {
     console.log('dass')
-    scan.value.openScan()
+    scan.value?.openScan()
   }
 
   const onClose=()=>{
-    scan.value.closeScan()
+    scan.value?.closeScan()
   }
   
 </script>
