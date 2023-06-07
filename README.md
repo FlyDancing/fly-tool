@@ -5,9 +5,9 @@
 ## Install & Use
 
 ```bash
-pnpm i vue-amazing-ui
+pnpm i fly-tool
 # or
-npm install vue-amazing-ui
+npm install fly-tool
 # or
-yarn add vue-amazing-ui
+yarn add fly-tool
 ```

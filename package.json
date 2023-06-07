@@ -1,7 +1,7 @@
 {
   "name": "fly-tool",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "工具组件",
   "author": {
     "name": "FlyDancing"
@@ -25,5 +25,9 @@
     "vite": "^4.3.9",
     "vue-tsc": "^1.4.2"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlyDancing/fly-tool.git"
+  }
 }
